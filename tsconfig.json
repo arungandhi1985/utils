@@ -1,0 +1,18 @@
+{
+  "extends": "ts-config-single-spa",
+  "files": ["src/verint-utils.ts"],
+  "compilerOptions": {
+    "declarationDir": "dist",
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
+
